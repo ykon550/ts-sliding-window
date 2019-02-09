@@ -10,8 +10,8 @@ const opts = {
     refleshRate: 10,    // in milliseconds
 }
 
-const SW = require('../lib/ts-sliding-window');
-const sw = new SW.SlidingWindow(opts);
+const SlidingWindow = require('../lib/ts-sliding-window');
+const sw = new SlidingWindow(opts);
 
 const url = 'wss://stream.binance.com:9443/ws/btcusdt@trade';
 const socket = new ws(url);

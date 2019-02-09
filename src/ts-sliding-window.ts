@@ -9,7 +9,7 @@ export type TOptions = {
     refleshRate: number,
 }
 
-export class SlidingWindow {
+class SlidingWindow {
     queue: any[];
     timer: NodeJS.Timeout;
     _sums: { [key: string]: BigNumber };
@@ -85,3 +85,5 @@ export class SlidingWindow {
         this.queue.splice(0, idx);
     }
 }
+
+module.exports = SlidingWindow;
