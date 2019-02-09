@@ -2,7 +2,7 @@
   "name": "ts-sliding-window",
   "version": "0.1.0",
   "description": "Time Series Sliding Window",
-  "main": "index.js",
+  "main": "lib/ts-sliding-window.js",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
